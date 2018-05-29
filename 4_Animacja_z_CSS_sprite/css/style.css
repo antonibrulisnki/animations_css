@@ -1,0 +1,10 @@
+.zombie {
+    height: 312px;
+    width: 200px;
+    background: url("http://www.wdrfree.com/public/demos/animatespritekeyframes/walkingdead.png");
+    animation: animation 1s steps(10) infinite;
+}
+
+@keyframes animation {
+    100% { background-position: -2000px; }
+}

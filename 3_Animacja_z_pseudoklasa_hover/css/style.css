@@ -1,0 +1,41 @@
+.red-button {
+    width: 100px;
+    height:100px;
+    background-color: red;
+}
+.red-button:hover{
+    background-color: purple;
+    animation: animation 3s infinite;
+    animation-fill-mode: forwards;
+}
+
+@keyframes animation {
+    0%{
+        width: 100px;
+        background-color: purple;
+        transform: scale(2);
+    }
+
+    25%{
+        width: 150px;
+        background-color: darkorange;
+        transform: scale(4);
+    }
+
+    50%{
+        width: 200px;
+        background-color: green;
+        transform: scale(6);
+    }
+
+    75%{
+        width: 250px;
+        background-color: gray;
+        transform: scale(8);
+    }
+
+    100%{
+        background-color: pink;
+        transform: scale(10);
+    }
+}

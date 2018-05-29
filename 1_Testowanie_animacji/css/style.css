@@ -1,0 +1,27 @@
+.violet-bell {
+    width:1000px;
+    height:40px;
+    background-color: violet;
+    animation: pulsowanie 3s infinite alternate;
+    -moz-animation: pulsowanie 3s infinite alternate;
+    -webkit-animation: pulsowanie 3s infinite alternate;
+}
+
+@keyframes pulsowanie
+{
+    0% {width:20px;}
+    100% {width:600px;}
+}
+
+.test-box{
+    margin-left: 100px;
+    width: 100px;
+    height: 100px;
+    background: gray;
+    transition: all 1s;
+}
+
+.test-box:hover{
+    transform-origin: top left;
+    transform: rotate(90deg);
+}
